@@ -1,0 +1,69 @@
+
+*{margin: 0;padding: 0;color: #fff;font-family: " 微软雅黑";}
+#logo{position: fixed;left: 30px;top: 10px;z-index: 999;}
+#logo img{border-radius: 30px;width: 60px;height: 60px;}
+.section{text-align: center;}
+#main{background: #83aba0;position: relative;}
+
+#main h2{line-height: 50px;width: 70%;margin: 50px auto; border-bottom: 1px solid #fff;font-size: 25px;font-weight: normal;}
+#main p{line-height: 50px;font-size: 18px;}
+#photo{width: 160px;height: 160px; border-radius: 80px;}
+#about{background: #0f8d82;}
+#about h2{line-height: 50px;width: 80%;margin: 50px auto;}
+#about #intro{width: 60%;margin: 0 auto;}
+#about #intro .detail{width: 20%;display: inline-block;margin-bottom: 50px;}
+#about #intro .detail img{width: 40px;height: 40px;padding: 20px;border-radius: 40px;background: #279a90;margin-bottom: 30px;transition: 1s;}
+#about #intro .detail img:hover{background: #1b9287;-webkit-box-shadow:0 0 20px  #fff;padding: 18px;border-radius: 38px;margin-top: -2px;}
+#about  p{line-height: 40px;font-size: 18px;}
+#skill{background: #4b5c8c;}
+#skill p{line-height: 40px;font-size: 16px;}
+#skill_contain{margin: 100px auto;width: 800px;}
+#skill_pic{position: relative;float: left;}
+#outer_circle{position: absolute;top:-50px;left: -50px; width: 250px;height: 250px;border-radius: 125px;border: 5px dashed gray; }
+#outer_circle p{font-size: 10px; width: 60px;height: 60px;border-radius: 30px;position: absolute;padding-top: 8px;box-sizing: border-box;}
+#outer_circle p:nth-child(1){top: -40px;left: 95px;background: rgba(147,147,189,0.8);}
+#outer_circle p:nth-child(2){top: 95px;left: -40px;background: rgba(238,215,163,0.8);}
+#outer_circle p:nth-child(3){top: 225px;left: 95px;background: rgba(171,209,220,0.8);}
+#outer_circle p:nth-child(4){top: 95px;left: 225px;background: rgba(179,164,140,0.8);}
+#outer_circle p:nth-child(5){top: 5px;left: 5px;background: rgba(66,66,66,0.8);}
+#outer_circle p:nth-child(6){top: 185px;left: 185px;background: rgba(147,147,189,0.8);}
+#outer_circle p:nth-child(7){top: 5px;left: 185px;background: 	rgba(49,65,82,0.8);}
+#outer_circle p:nth-child(8){top: 185px;left: 5px;background: 	rgba(66,66,66,0.8);}
+#inner_circle{position: absolute;top:0;left: 0px;width: 150px;height: 150px;border-radius: 75px;border: 5px dashed gray;}
+#inner_circle p{font-size: 10px; width: 40px;height: 40px;border-radius: 20px;position: absolute;}
+#inner_circle p:nth-child(1){top: 55px;left: 130px;background: rgba(147,147,189,0.8);}
+#inner_circle p:nth-child(2){top: 55px;left: -20px;background: rgba(238,215,163,0.8);}
+#inner_circle p:nth-child(3){top: 130px;left: 55px;background: rgba(171,209,220,0.8);}
+#inner_circle p:nth-child(4){top: -20px;left: 55px;background: rgba(179,164,140,0.8);}
+#skill_text{float: right;width: 400px;}
+
+#experience{background: #915A4A;}
+
+#experience h2{line-height: 50px;width: 80%;margin: 50px auto;transform-style: preserve-3d;perspective: 600px;}
+#experience #experience_content{width: 500px;height: 300px;transform: perspective(600px);transition: 1s;overflow: hidden;
+	margin: 0 auto;background: #fff;border-radius:10px;box-shadow: 0 0 10px black;padding-left: 200px;text-align: left;}
+	#experience #experience_content .experience_text:hover{transform: rotateX(360deg);}
+#experience .experience_text{width: 500px;height: 300px;}
+#experience .experience_text img{margin-left: -150px;margin-top:100px;float: left;width: 100px;height: 100px;}
+#experience .experience_text p{color: #945c4c;line-height: 30px;font-size: 12px;}
+#experience .experience_text h3{color:  #945c4c;line-height:50px;padding-top: 20px;}
+#experience .experience_text li{color: black;line-height: 30px;font-size: 14px;}
+#experience #b{margin: 0 auto;width: 300px;margin-top: 50px;height: 50px;}
+#experience #b li{width: 10px;height: 10px;border-radius: 5px;background:#623c32;list-style: none;float: left;margin-left: 50px;overflow: hidden;}
+#experience #b li.on{background: #af7164;}
+#experience  p{line-height: 40px;font-size: 18px;}
+#project{background: #4a849f;}
+#project .project_list{width:40%;min-width: 250px; float: left; box-sizing: border-box;padding: 20px;background: #fff;text-align: left;border-radius: 10px;margin:50px 5% 0;}
+#project .project_list h3{color:  #4a849f;line-height: 50px;font-size: 18px;}
+#project .project_list p{color:  black;font-size: 14px;line-height: 20px;}
+#project .project_list a{display: inline-block;width: 200px;height: 30px;
+	border: 1px solid #ccc;border-radius: 5px;text-align: center;margin-top: 20px;}
+#project .project_list a:hover{background: #ccc;}
+#project .project_list a img{width: 20px;height: 20px;margin-top: 5px;}
+#contact{background: #347A90;}
+#contact h2{line-height: 50px;width: 80%;margin: 50px auto;}
+#contact ul{width: 200px;margin: 0 auto;}
+#contact ul li{display: inline-block;width: 20%;text-align: center;list-style: none;font-size: 18px;}
+#contact p{line-height: 50px;font-size: 18px;}
+#contact a{margin-top: 150px;display: inline-block;width: 40px;height: 40px;border: 1px solid #fff;margin-left: 20px;border-radius: 20px;}
+#contact img{width: 30px;height: 30px;margin-top: 5px;}
